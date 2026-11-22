@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="594" height="68" viewBox="0 0 594 68" role="img"><title>Espacio</title><style>
+<svg xmlns="http://www.w3.org/2000/svg" width="532" height="68" viewBox="0 0 532 68" role="img"><title>Espacio</title><style>
 @keyframes ticker{to{transform:translateX(-50%)}}
 @keyframes pulse{0%,100%{opacity:.55;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
 @keyframes bar-grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
@@ -16,4 +16,4 @@
 .contact-intro{animation-delay:.25s !important}
 .contact-primary,.contact-secondary a{animation:reveal .9s cubic-bezier(.2,.8,.2,1) both !important}
 @media (prefers-reduced-motion:reduce){*{animation:none !important}}
-</style><rect width="594" height="68" fill="#FFFFFF"/></svg>
+</style><rect width="532" height="68" fill="#FFFFFF"/></svg>
