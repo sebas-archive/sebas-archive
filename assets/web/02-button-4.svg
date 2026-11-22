@@ -16,4 +16,4 @@
 .contact-intro{animation-delay:.25s !important}
 .contact-primary,.contact-secondary a{animation:reveal .9s cubic-bezier(.2,.8,.2,1) both !important}
 @media (prefers-reduced-motion:reduce){*{animation:none !important}}
-</style><rect width="594" height="68" fill="#08090D"/></svg>
+</style><rect width="594" height="68" fill="#0D1117"/></svg>

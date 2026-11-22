@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="142" viewBox="0 0 480 142" role="img"><title>Espacio</title><style>
+@keyframes ticker{to{transform:translateX(-50%)}}
+@keyframes pulse{0%,100%{opacity:.55;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes bar-grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes reveal{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes portrait{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:none}}
+@keyframes cell{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:none}}
+[data-reveal]{animation:reveal 1s cubic-bezier(.2,.8,.2,1) both !important}
+.availability{animation:reveal .9s cubic-bezier(.2,.8,.2,1) .1s both !important}
+.hero h1{animation:reveal 1s cubic-bezier(.2,.8,.2,1) .25s both !important}
+.hero-copy>p{animation:reveal 1s cubic-bezier(.2,.8,.2,1) .45s both !important}
+.portrait-frame{animation:portrait 1.4s cubic-bezier(.2,.8,.2,1) .2s both !important}
+.hero-actions a{animation:reveal .9s cubic-bezier(.2,.8,.2,1) .6s both !important}
+.contact-heading,.contact-intro{animation:reveal 1s cubic-bezier(.2,.8,.2,1) both !important}
+.contact-intro{animation-delay:.25s !important}
+.contact-primary,.contact-secondary a{animation:reveal .9s cubic-bezier(.2,.8,.2,1) both !important}
+@media (prefers-reduced-motion:reduce){*{animation:none !important}}
+</style><rect width="480" height="142" fill="#FFFFFF"/></svg>
