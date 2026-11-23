@@ -17,7 +17,7 @@
 .contact-primary,.contact-secondary a{animation:reveal .9s cubic-bezier(.2,.8,.2,1) both !important}
 @keyframes slide{from{opacity:0;transform:translateX(-28px)}to{opacity:1;transform:none}}
 @keyframes nudge{0%,70%,100%{transform:translate(0,0)}80%{transform:translate(3px,-3px)}}
-@keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes type{from{clip-path:inset(-12px 100% -16px 0)}to{clip-path:inset(-12px 0 -16px 0)}}
 @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 /* Technologies: encabezado y filas que entran en cascada */
 .capability-section>header{animation:reveal 1s cubic-bezier(.2,.8,.2,1) both !important}
