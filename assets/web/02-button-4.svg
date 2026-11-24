@@ -42,4 +42,8 @@
 .contact-secondary a:nth-child(2){animation-delay:.15s !important}
 .contact-secondary strong{animation:slide .9s cubic-bezier(.2,.8,.2,1) .2s both !important}
 @media (prefers-reduced-motion:reduce){*{animation:none !important}}
+/* WebKit (Safari en Mac, iPhone y iPad; cualquier navegador en iOS): las capas animadas dentro de
+   foreignObject no siguen el escalado del SVG y se ven gigantes, desplazadas o vacías. Ahí se muestra
+   el estado final sin animación; Chrome, Edge y Firefox (PC y Android) conservan las animaciones. */
+@supports (-webkit-touch-callout:none) or (font:-apple-system-body) or (-apple-pay-button-style:inherit){*,*::before,*::after{animation:none !important;will-change:auto !important}}
 </style><rect width="519" height="68" fill="#0D1117"/></svg>
